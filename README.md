@@ -21,18 +21,21 @@ This project simulates a real-world business scenario in which a data analyst su
 ```
 AdventureWorks-OLTP-Analysis/
 │
-├── SQL/
-│   ├── 00_data_exploration.sql      ← Data validation & channel classification
-│   ├── 01_adhoc_analysis.sql        ← Ad-hoc business questions
-│   ├── 02_kpi_metrics.sql           ← KPI & financial metrics
-│   └── 03_rfm_model.sql             ← Customer segmentation (RFM model)
+├── sql/                          ← Final SQL scripts with clean structure and English comments
+│   ├── 00_data_exploration.sql
+│   ├── 01_adhoc_analysis.sql
+│   ├── 02_kpi_metrics.sql
+│   └── 03_rfm_model.sql
+│
+├── sql_working_vi/               ← Original working files with Vietnamese notes used during analysis
+│
+├── insights.md                   ← Key business insights & recommendations
 │
 ├── images/
-│   └── adventureworks_schema.png    ← Database schema diagram
+│   └── adventureworks_schema.png
 │
-├── docs/
-│   └── README_VI.md                 ← Vietnamese version of this README
-│
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 ## 🗃️ Dataset
