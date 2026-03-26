@@ -21,13 +21,13 @@ This project simulates a real-world business scenario in which a data analyst su
 ```
 AdventureWorks-OLTP-Analysis/
 │
-├── sql/                          ← Final SQL scripts with clean structure and English comments
+├── SQL/                          ← Final SQL scripts with clean structure and English comments
 │   ├── 00_data_exploration.sql
 │   ├── 01_adhoc_analysis.sql
 │   ├── 02_kpi_metrics.sql
 │   └── 03_rfm_model.sql
 │
-├── sql_working_vi/               ← Original working files with Vietnamese notes used during analysis
+├── SQL_working_vi/               ← Original working files with Vietnamese notes used during analysis
 │
 ├── insights.md                   ← Key business insights & recommendations
 │
