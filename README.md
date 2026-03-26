@@ -1,11 +1,16 @@
 # AdventureWorks OLTP — SQL Data Analysis
-A comprehensive business analysis of Adventure Works using pure T-SQL on the OLTP 2022 dataset.
-This project goes beyond querying data. It dives deep into root cause analysis, financial performance evaluation, and customer segmentation via an RFM model built entirely in SQL.
+This project analyzes the AdventureWorks OLTP dataset to uncover revenue drivers, identify profit leakage, and segment customers for strategic decision-making.
+**Key highlights:**
+- Identified that 10% of customers drive 68% of revenue
+- Discovered 21% of products are loss-making
+- Revealed B2B channel generates ~75% of total revenue with 20× higher AOV
+## 🏢 Business Context
+This project simulates a real-world business scenario in which a data analyst supports decision-making across sales, product, and customer strategy within a retail/manufacturing company.
 ## 🎯 Objectives
 - Analyze revenue trends over time
 - Identify top customers and their contribution
 - Detect high-risk products (low profit/losses)
-- Segment customers using RFM model
+- Segment customers using the RFM model
 ## 🛠️ Tools & Skills
 - SQL Server Management Studio
 - Data Analysis
@@ -73,6 +78,12 @@ Uses PERCENT_RANK() window functions to score each dimension 1–4, then maps co
 - 60% of total profit comes from just 2 product lines: Mountain-200 and Road-150.
 - 21% of products (56/266) carry negative profit margins, while the top-performing lines are effectively subsidizing these losses.
 - RFM insight: Potential Loyal and Best Customer segments represent only ~10% of customers but contribute 68% of total revenue. The Lost Big Customer group (low Recency, high Monetary) accounts for 16% of historical revenue, a significant win-back opportunity.
+
+## 📌 Business Recommendations
+- Focus on retaining the top 10% customers who drive the majority of revenue
+- Review and optimize or discontinue loss-making products
+- Expand B2B (offline) channel due to significantly higher AOV
+- Implement targeted win-back campaigns for high-value inactive customers  
 
 ## 👤 Author
 Le Xuan Viet
