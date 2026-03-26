@@ -19,7 +19,7 @@ This project simulates a real-world business scenario in which a data analyst su
 - Business Thinking
 ## 📁 Project Structure
 ```
-AdventureWorks-OLTP-Analysis/
+AdventureWorks OLTP — SQL Data Analysis/
 │
 ├── SQL/                          ← Final SQL scripts with clean structure and English comments
 │   ├── 00_data_exploration.sql
